@@ -6,5 +6,5 @@ import pytest
 
 @pytest.fixture
 def chromeDriverObj():
-    driver = Chrome(ChromeDriverManager().install())
+    driver = Chrome('chromedriver.exe')
     return driver
